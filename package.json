@@ -1,0 +1,19 @@
+{
+  "name": "ruflo-ia32",
+  "version": "1.0.0",
+  "description": "Ruflo multi-agent swarm — pure JS port for Node 14 ia32 (iSH on iPhone)",
+  "main": "src/index.js",
+  "bin": {
+    "ruflo": "bin/ruflo.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "node bin/ruflo.js",
+    "test":  "node tests/test.js"
+  },
+  "keywords": ["multi-agent", "swarm", "ia32", "ish", "claude"],
+  "license": "MIT"
+}
